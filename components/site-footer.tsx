@@ -18,6 +18,14 @@ export function SiteFooter() {
           <Link className="link link-animated text-sm text-white/70 hover:text-[#f6d28e]" href="/sobre">
             Sobre
           </Link>
+          <a
+            className="link link-animated text-sm text-white/70 hover:text-[#f6d28e]"
+            href="https://www.instagram.com/joff.talks/following/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Instagram
+          </a>
         </nav>
         <p className="text-xs text-white/45">© {new Date().getFullYear()} J OFF Talks</p>
       </div>

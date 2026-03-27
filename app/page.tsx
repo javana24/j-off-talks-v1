@@ -1,3 +1,4 @@
+import { FeedbackSection } from "@/components/feedback-section";
 import { FeaturedGuests } from "@/components/featured-guests";
 import { HeroSection } from "@/components/hero-section";
 import { SiteFooter } from "@/components/site-footer";
@@ -10,6 +11,7 @@ export default function Home() {
       <main className="flex-1">
         <HeroSection />
         <FeaturedGuests />
+        <FeedbackSection />
       </main>
       <SiteFooter />
     </div>

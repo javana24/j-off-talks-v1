@@ -4,6 +4,7 @@ export type Guest = {
   category: string;
   description: string;
   imageUrl: string;
+  status?: "upcoming" | "inspiration";
   highlighted?: boolean;
 };
 
@@ -13,9 +14,10 @@ export const featuredGuests: Guest[] = [
     name: "Ilia Topuria",
     category: "Rendimiento / UFC",
     description:
-      "Campeon mundial de UFC, referente de disciplina mental y ejecucion bajo presion extrema.",
+      "Referencia de disciplina mental, ejecucion bajo presion extrema y consistencia competitiva.",
     imageUrl:
-      "https://images.unsplash.com/photo-1621724164074-2d5f3d9c4fbe?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=1200&q=80",
+    status: "inspiration",
     highlighted: true,
   },
   {
@@ -23,80 +25,89 @@ export const featuredGuests: Guest[] = [
     name: "Tengo un Plan",
     category: "Emprendimiento / Negocios",
     description:
-      "Canal y marca de negocios que democratiza estrategias de crecimiento, ventas y libertad financiera.",
+      "Caso de estudio de comunicacion empresarial, posicionamiento de marca y crecimiento digital.",
     imageUrl:
-      "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1200&q=80",
+    status: "inspiration",
   },
   {
     id: "salva-diaz",
     name: "Salva Diaz",
     category: "Salud / Biohacking",
     description:
-      "Especialista en rendimiento humano, habitos y protocolos de salud para optimizar energia y foco.",
+      "Marco de referencia en rendimiento humano, habitos y optimizacion de energia para alto output.",
     imageUrl:
-      "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&w=1200&q=80",
+    status: "upcoming",
   },
   {
     id: "worldcast",
     name: "Worldcast",
     category: "Mentalidad / Actualidad",
     description:
-      "Formato de conversacion sobre ideas, poder de perspectiva y lectura critica del contexto global.",
+      "Inspiracion en narrativa de actualidad, pensamiento critico y conversacion con contexto.",
     imageUrl:
-      "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?auto=format&fit=crop&w=1200&q=80",
+    status: "upcoming",
   },
   {
     id: "dollar-dorrego",
     name: "Dollar Dorrego",
     category: "Mercados / Economia",
     description:
-      "Analisis directo de ciclos economicos, decisiones financieras y oportunidades en escenarios de cambio.",
+      "Referencia para analizar ciclos economicos y toma de decisiones financieras en incertidumbre.",
     imageUrl:
-      "https://images.unsplash.com/photo-1553729459-efe14ef6055d?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=80",
+    status: "upcoming",
   },
   {
     id: "neus-domenech",
     name: "Neus Domenech",
     category: "Marca Personal / Comunicacion",
     description:
-      "Estratega de narrativa y posicionamiento para construir autoridad en mercados competitivos.",
+      "Modelo de comunicacion estrategica para construir autoridad en mercados competitivos.",
     imageUrl:
-      "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=1200&q=80",
+    status: "upcoming",
   },
   {
     id: "roca-project",
     name: "Roca Project",
     category: "Innovacion / Creatividad",
     description:
-      "Vision practica sobre diseno de proyectos, ejecucion creativa y crecimiento sostenido.",
+      "Inspiracion en ejecucion creativa, diseno de proyectos y crecimiento sostenido.",
     imageUrl:
-      "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80",
+    status: "upcoming",
   },
   {
     id: "goro",
     name: "Goro",
     category: "Cultura / Lifestyle",
     description:
-      "Conversaciones de alto contexto sobre tendencias culturales, identidad y evolucion personal.",
+      "Referencia en lectura cultural y construccion de identidad dentro de ecosistemas digitales.",
     imageUrl:
-      "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=1200&q=80",
+    status: "upcoming",
   },
   {
     id: "spicy4tuna",
     name: "Spicy4tuna",
     category: "Contenido Digital / Comunidad",
     description:
-      "Creador con enfoque en autenticidad, comunidad y formatos de contenido de alto engagement.",
+      "Benchmark de contenido autentico, comunidad fuerte y formatos con alto engagement.",
     imageUrl:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=1200&q=80",
+    status: "upcoming",
   },
   {
     id: "ted",
     name: "TED",
     category: "Ideas / Impacto Global",
     description:
-      "Plataforma iconica de pensamiento que inspira conversaciones sobre ciencia, liderazgo y futuro.",
+      "Estandar global de conversaciones de ideas con impacto en ciencia, liderazgo y futuro.",
     imageUrl:
-      "https://images.unsplash.com/photo-1503428593586-e225b39bddfe?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&w=1200&q=80",
+    status: "inspiration",
   },
 ];

@@ -11,9 +11,9 @@ export default function SobrePage() {
           Autoridad, criterio y accion
         </h1>
         <p className="mx-auto mt-8 max-w-3xl text-base leading-8 text-white/75">
-          J OFF Talks es un espacio de conversaciones profundas con personas que ejecutan al
-          maximo nivel. El objetivo es entregar claridad practica para liderar mejor, pensar con
-          independencia y transformar conocimiento en resultados reales.
+          Ahora mismo estoy enfocado en fortalecer salud mental y salud fisica como base de alto
+          rendimiento. La disciplina es un valor central en mi vida: estructura mis decisiones, mi
+          trabajo diario y el tipo de conversaciones que quiero construir en J OFF Talks.
         </p>
       </main>
       <SiteFooter />
